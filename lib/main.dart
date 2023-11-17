@@ -1,13 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:proyect1/widgets/menu.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        drawer: const MyDrawer(),
         appBar: AppBar(
           title: Text('Webview Example'),
         ),
