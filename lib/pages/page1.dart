@@ -7,9 +7,7 @@ class page1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: [
-          Text('xd')
-        ],
+        children: [Text('mano')],
       ),
     );
   }
